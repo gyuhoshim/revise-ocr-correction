@@ -1,7 +1,7 @@
 # REVISE: A Framework for Revising OCRed Text in Practical Information Systems with Data Contamination Strategy
 
 This repository contains the official implementation of the REVISE framework for OCR (Optical Character Recognition) error correction using language models with synthetic data contamination strategies.
-Paper link: [https://aclanthology.org/2025.acl-industry.100/]([url](https://aclanthology.org/2025.acl-industry.100/))
+Paper link: [https://aclanthology.org/2025.acl-industry.100/]([https://aclanthology.org/2025.acl-industry.100/])
 
 ## 📖 Overview
 
