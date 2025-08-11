@@ -35,7 +35,7 @@ REVISE is a comprehensive framework that addresses OCR error correction through:
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/revise-ocr-correction.git
+git clone https://github.com/gyuhoshim/revise-ocr-correction.git
 cd revise-ocr-correction
 ```
 
@@ -164,11 +164,23 @@ tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B-Instruct")
 If you use this code in your research, please cite our paper:
 
 ```bibtex
-@article{shim2024revise,
-  title={REVISE: A Framework for Revising OCRed Text in Practical Information Systems with Data Contamination Strategy},
-  author={Shim, Gyuho},
-  journal={Your Journal},
-  year={2024}
+@inproceedings{shim-etal-2025-revise,
+    title = "{REVISE}: A Framework for Revising {OCR}ed text in Practical Information Systems with Data Contamination Strategy",
+    author = "Shim, Gyuho  and
+      Hong, Seongtae  and
+      Lim, Heuiseok",
+    editor = "Rehm, Georg  and
+      Li, Yunyao",
+    booktitle = "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 6: Industry Track)",
+    month = jul,
+    year = "2025",
+    address = "Vienna, Austria",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.acl-industry.100/",
+    doi = "10.18653/v1/2025.acl-industry.100",
+    pages = "1423--1434",
+    ISBN = "979-8-89176-288-6",
+    abstract = "Recent advances in large language models (LLMs) have significantly improved Document AI, demonstrating remarkable performance on document understanding tasks such as question answering. However, existing approaches primarily focus on solving specific tasks, lacking the capability to structurally organize and systematically manage document information. To address this limitation, we propose Revise, a framework that systematically corrects errors introduced by OCR at the character, word, and structural levels. Specifically, Revise employs a comprehensive hierarchical taxonomy of common OCR errors and a synthetic data generation strategy that realistically simulates such errors to train an effective correction model. Experimental results demonstrate that Revise effectively corrects OCR outputs, enabling more structured representation and systematic management of document contents. Consequently, our method significantly enhances downstream performance in document retrieval and question answering tasks, highlighting the potential to overcome the structural management limitations of existing Document AI frameworks."
 }
 ```
 
