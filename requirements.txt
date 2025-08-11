@@ -1,0 +1,14 @@
+# Core ML and NLP libraries
+torch>=2.0.0
+transformers>=4.30.0
+datasets>=2.10.0
+accelerate>=0.20.0
+deepspeed>=0.9.0
+
+# Data processing
+jsonlines>=3.0.0
+fire>=0.5.0
+
+
+# Optional: For Weights & Biases logging (uncomment if needed)
+# wandb>=0.15.0
