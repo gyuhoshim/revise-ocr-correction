@@ -19,8 +19,7 @@ REVISE is a comprehensive framework that addresses OCR error correction through:
 
 ### OCR Error Types Supported
 - **Character-level**: Substitution, insertion, deletion, transposition
-- **Word-level**: Word deletion, transposition
-- **Segmentation**: Over-segmentation (extra spaces) and under-segmentation (missing spaces)
+- **Word-level**: Word deletion, transposition, segmentaion
 - **Layout**: Multi-column document reading order errors
 
 ### Model Training
