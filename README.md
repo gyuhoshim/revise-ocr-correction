@@ -1,7 +1,10 @@
 # REVISE: A Framework for Revising OCRed Text in Practical Information Systems with Data Contamination Strategy
 
+[![Paper](https://img.shields.io/badge/Paper-ACL%202025-blue)](https://aclanthology.org/2025.acl-industry.100/)
+
 This repository contains the official implementation of the REVISE framework for OCR (Optical Character Recognition) error correction using language models with synthetic data contamination strategies.
-Paper link: [](url)
+
+**📄 Paper**: [REVISE: A Framework for Revising OCRed text in Practical Information Systems with Data Contamination Strategy](https://aclanthology.org/2025.acl-industry.100/) (ACL 2025 Industry Track)
 
 ## 📖 Overview
 
@@ -163,6 +166,8 @@ tokenizer = AutoTokenizer.from_pretrained("meta-llama/Llama-3.2-1B-Instruct")
 ## 📄 Citation
 
 If you use this code in your research, please cite our paper:
+
+**Paper Link**: https://aclanthology.org/2025.acl-industry.100/
 
 ```bibtex
 @inproceedings{shim-etal-2025-revise,
